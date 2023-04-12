@@ -1,7 +1,17 @@
-@import '_start';
-@import '_button';
-@import '_font';
-@import 'components';
+@import "_start";
+@import "_button";
+@import "_font";
+@import "_component";
 
-
-
+nav {
+    header {
+        .logo-box {
+            color: #ffffff;
+            .logo {
+                position: absolute;
+                width: 2.625rem;
+                height: 2.625rem;
+            }
+        }
+    }
+}

@@ -22,4 +22,16 @@ a:hover {
 /* responsive viewport */
 @media (max-width: 768px) {
   /* styles for screens smaller than 768px */
+}
+* {
+  color: red;
+}
+
+nav header .logo-box {
+  color: #ffffff;
+}
+nav header .logo-box .logo {
+  position: absolute;
+  width: 2.625rem;
+  height: 2.625rem;
 }/*# sourceMappingURL=style.css.map */
