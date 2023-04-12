@@ -29,9 +29,26 @@ a:hover {
 
 nav header .logo-box {
   color: #ffffff;
+  height: 4rem;
 }
 nav header .logo-box .logo {
   position: absolute;
   width: 2.625rem;
   height: 2.625rem;
+  margin-top: 1rem;
+}
+nav header .logo-box p {
+  width: 4.3rem;
+  height: 3rem;
+  padding-left: 3.2rem;
+  padding-top: 1.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.3rem;
+  color: #6255A5;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }/*# sourceMappingURL=style.css.map */
