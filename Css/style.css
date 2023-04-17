@@ -23,6 +23,18 @@ a:hover {
 @media (max-width: 768px) {
   /* styles for screens smaller than 768px */
 }
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Inter&display=swap");
+}
+.simple {
+  width: 3.2rem;
+  height: 1.8rem;
+  border: 1px solid #6255A5;
+  border-radius: 18px;
+  font-family: "Inter", sans-serif;
+}
+
 * {
   color: red;
 }
@@ -59,5 +71,10 @@ nav div header .logo-box p {
 nav div header .nav-item ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+nav div header .nav-button ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */

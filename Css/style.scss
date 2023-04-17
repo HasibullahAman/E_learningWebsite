@@ -35,12 +35,18 @@ nav {
                 }
             }
             .nav-item {
-                ul{
-                    display:flex;
+                ul {
+                    display: flex;
                     flex-direction: row;
-                    justify-content: space-around;
+                    justify-content: space-evenly;
                 }
-
+            }
+            .nav-button {
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                }
             }
         }
     }
