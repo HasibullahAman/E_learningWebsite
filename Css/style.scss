@@ -1,65 +1,70 @@
-    @import "_start";
-    @import "_button";
-    @import "_font";
-    @import "_component";
-    .container {
-        nav {
-            div {
-                .row {
-                    header {
-                        display: flex;
-                        flex-direction: row;
-                        .logo-box {
-                            color: #ffffff;
-                            height: 4rem;
-                            .logo {
-                                position: absolute;
-                                width: 2.625rem;
-                                height: 2.625rem;
-                                margin-top: 1rem;
-                                // padding-top: 1rem;
-                            }
-                            p {
-                                width: 4.3rem;
-                                height: 3rem;
-                                padding-left: 3.2rem;
-                                padding-top: 1.3rem;
-                                font-family: "Inter";
-                                font-style: normal;
-                                font-weight: 500;
-                                font-size: 2.4rem;
-                                line-height: 2.3rem;
-                                color: #6255a5;
-                                flex: none;
-                                order: 1;
-                                flex-grow: 0;
-                            }
+@import "_start";
+@import "_button";
+@import "_font";
+@import "_component";
+.container {
+    nav {
+        div {
+            .row {
+                header {
+                    display: flex;
+                    flex-direction: row;
+                    .logo-box {
+                        color: #ffffff;
+                        height: 4rem;
+                        .logo {
+                            position: absolute;
+                            width: 2.625rem;
+                            height: 2.625rem;
+                            margin-top: 1rem;
+                            // padding-top: 1rem;
                         }
-                        .nav-item {
-                            ul {
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: space-evenly;
-                                padding-top: 1.8rem;
-                            }
+                        p {
+                            width: 4.3rem;
+                            height: 3rem;
+                            padding-left: 3.2rem;
+                            padding-top: 1.3rem;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 2.4rem;
+                            line-height: 2.3rem;
+                            color: #6255a5;
+                            flex: none;
+                            order: 1;
+                            flex-grow: 0;
                         }
-                        .nav-button {
-                            ul {
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: space-evenly;
-                                .color_full_button {
-                                    padding-left: 0;
-                                }
+                    }
+                    .nav-item {
+                        ul {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            padding-top: 1.8rem;
+                        }
+                    }
+                    .nav-button {
+                        ul {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            .color_full_button {
+                                padding-left: 0;
                             }
                         }
                     }
                 }
             }
         }
-        .section-1 {
-            background-color: #F9F7FF;
-            left: 0px;
-            top: 81px;
+    }
+    .section-1 {
+        background-color: #F9F7FF;
+        left: 0px;
+        top: 81px;
+        .row {
+            .div {
+                .sec-title {}
+            }
         }
     }
+}
