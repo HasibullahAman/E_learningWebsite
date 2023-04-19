@@ -1,12 +1,13 @@
-@font-face {
-    font-family: 'Inter', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Inter&display=swap');
-}
-
 .simple {
-    width: 3.1rem;
-    height: 1.8rem;
-    border: 1px solid #6255A5;
-    border-radius: 18px;
-    font-family: 'Inter', sans-serif;
+    color: #6255A5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 100px;
+    height: 52px;
+    border: 2px solid #6255A5;
+    border-radius: 10px;
 }
