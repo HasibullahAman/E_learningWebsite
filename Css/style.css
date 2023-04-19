@@ -338,4 +338,13 @@ body {
   line-height: 28px;
   color: #FFFFFF;
 }
+
+.container .section-2 .second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=style.css.map */
