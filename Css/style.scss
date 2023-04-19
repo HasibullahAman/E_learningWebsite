@@ -2,7 +2,12 @@
 @import "_button";
 @import "_font";
 @import "_component";
+body {
+    background: #F5F5F5;
+}
+
 .container {
+    background: #ffffff;
     nav {
         div {
             .row {
@@ -59,11 +64,40 @@
     }
     .section-1 {
         background-color: #F9F7FF;
-        left: 0px;
         top: 81px;
         .row {
-            .div {
-                .sec-title {}
+            .sec-title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 6rem;
+            }
+            .sec-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .sec-button {
+                padding-top: 2.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .button-sec1 {
+                    background: #6255A5;
+                    .button-sec1-text {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .sec-photo {
+                padding-top: 2.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    max-width: 70%;
+                    max-height: 90%;
+                }
             }
         }
     }

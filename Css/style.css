@@ -134,8 +134,28 @@ a:hover {
   font-weight: 500;
   font-size: 72px;
   line-height: 82px;
-  text-align: center;
   color: #1F3E72;
+}
+
+.text {
+  margin-top: 1.5rem;
+  width: 603px;
+  height: 90px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(31, 62, 114, 0.75);
+}
+
+body {
+  background: #F5F5F5;
+}
+
+.container {
+  background: #ffffff;
 }
 
 .container nav div .row header {
@@ -214,7 +234,70 @@ a:hover {
 
 .container .section-1 {
   background-color: #F9F7FF;
-  left: 0px;
   top: 81px;
+}
+
+.container .section-1 .row .sec-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6rem;
+}
+
+.container .section-1 .row .sec-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .section-1 .row .sec-button {
+  padding-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .section-1 .row .sec-button .button-sec1 {
+  background: #6255A5;
+}
+
+.container .section-1 .row .sec-button .button-sec1 .button-sec1-text {
+  color: #FFFFFF;
+}
+
+.container .section-1 .row .sec-photo {
+  padding-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .section-1 .row .sec-photo img {
+  max-width: 70%;
+  max-height: 90%;
 }
 /*# sourceMappingURL=style.css.map */
