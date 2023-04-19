@@ -102,11 +102,29 @@ body {
         }
     }
     .section-2 {
+        margin-top: 5.5rem;
         .first-row {
             display: flex;
             justify-content: space-between;
+            align-items: baseline;
             .h1-title-sec-2 {
-                font-family: ;
+                font-family: 'Newsreader', serif;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 48px;
+            }
+            .button-sec2 {
+                width: 237px;
+                height: 60px;
+                border-radius: 5px;
+                background: #6255A5;
+                .a-color-sec2 {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                }
             }
         }
     }
