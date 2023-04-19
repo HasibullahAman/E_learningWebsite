@@ -18,8 +18,7 @@
         height: 28px;
         font-family: 'Inter';
         font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 28px;
         color: #6255A5;
     }
@@ -28,7 +27,8 @@
 .color_full_button {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-around;
     padding: 12px 24px;
     gap: 10px;
     width: 156px;
@@ -41,15 +41,14 @@
     margin-top: 1rem;
     .a-color {
         width: 108px;
+        text-align: center;
         height: 28px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 28px;
-        /* identical to box height, or 140% */
         color: #FFFFFF;
-        /* Inside auto layout */
         flex: none;
         order: 0;
         flex-grow: 0;
