@@ -2,7 +2,6 @@
 @import "_button";
 @import "_font";
 @import "_component";
-
 nav {
     div {
         header {
@@ -39,6 +38,7 @@ nav {
                     display: flex;
                     flex-direction: row;
                     justify-content: space-evenly;
+                    padding-top: 1.8rem;
                 }
             }
             .nav-button {

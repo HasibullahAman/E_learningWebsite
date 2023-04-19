@@ -46,6 +46,7 @@ a:hover {
   color: #1F3E72;
   width: 51px;
   height: 22px;
+  margin-top: 2rem;
 }
 
 nav div header {
@@ -102,6 +103,7 @@ nav div header .nav-item ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  padding-top: 1.8rem;
 }
 
 nav div header .nav-button ul {
