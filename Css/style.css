@@ -129,12 +129,12 @@ a:hover {
 .h1-title {
   width: 677px;
   height: 164px;
-  font-family: 'Newsreader';
   font-style: normal;
   font-weight: 500;
   font-size: 72px;
   line-height: 82px;
   color: #1F3E72;
+  font-family: 'Newsreader', serif;
 }
 
 .text {
@@ -299,5 +299,14 @@ body {
 .container .section-1 .row .sec-photo img {
   max-width: 70%;
   max-height: 90%;
+}
+
+.container .section-2 .first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
