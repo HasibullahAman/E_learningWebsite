@@ -54,3 +54,32 @@
         flex-grow: 0;
     }
 }
+
+.card-button {
+    // align-items: center;
+    // border: 1px solid #1F3E7226;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 12px;
+    gap: 10px;
+    width: 219px;
+    height: 48px;
+    border: 1px solid rgba(31, 62, 114, 0.15);
+    border-radius: 300px;
+    img {
+        width: 35px;
+        height: 35px;
+    }
+    .name_inside_button {
+        align-items: flex-start;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 36px;
+        color: #1F3E72;
+    }
+}
+
+// <i class="fa-light fa-memo"></i>

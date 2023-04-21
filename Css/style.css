@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -113,6 +114,41 @@ a:hover {
           order: 0;
   -ms-flex-positive: 0;
       flex-grow: 0;
+}
+
+.card-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 6px 12px;
+  gap: 10px;
+  width: 219px;
+  height: 48px;
+  border: 1px solid rgba(31, 62, 114, 0.15);
+  border-radius: 300px;
+}
+
+.card-button img {
+  width: 35px;
+  height: 35px;
+}
+
+.card-button .name_inside_button {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  color: #1F3E72;
 }
 
 .setting {
