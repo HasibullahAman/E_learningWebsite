@@ -82,4 +82,26 @@
     }
 }
 
+.second-card-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 6px;
+    width: 127px;
+    height: 48px;
+    border: 1px solid rgba(31, 62, 114, 0.15);
+    border-radius: 150px;
+    .name_inside_button {
+        align-items: flex-start;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 36px;
+        color: #1F3E72;
+    }
+}
+
 // <i class="fa-light fa-memo"></i>

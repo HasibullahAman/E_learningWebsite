@@ -151,6 +151,39 @@ a:hover {
   color: #1F3E72;
 }
 
+.second-card-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 16px;
+  gap: 6px;
+  width: 127px;
+  height: 48px;
+  border: 1px solid rgba(31, 62, 114, 0.15);
+  border-radius: 150px;
+}
+
+.second-card-button .name_inside_button {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  color: #1F3E72;
+}
+
 .setting {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -183,6 +216,28 @@ a:hover {
   font-size: 22px;
   line-height: 30px;
   text-align: center;
+  color: rgba(31, 62, 114, 0.75);
+}
+
+.card-title {
+  width: 422px;
+  height: 36px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  color: #1F3E72;
+}
+
+.card-text {
+  width: 482px;
+  height: 52px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
   color: rgba(31, 62, 114, 0.75);
 }
 
@@ -382,5 +437,24 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.container .section-2 .card-post .card-post1 {
+  border: none;
+}
+
+.container .section-2 .card-post .card-post1 card-body .row .col-6 .card-button .second-card-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+}
+
+.container .section-2 .card-post .card-post1 card-body .row .col-6 .card-button .classic_button_prev {
+  position: absolute;
+  right: 88px;
+  top: 5px;
 }
 /*# sourceMappingURL=style.css.map */
