@@ -241,6 +241,13 @@ a:hover {
   color: rgba(31, 62, 114, 0.75);
 }
 
+.circle {
+  background: #85D1A0;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+
 body {
   background: #F5F5F5;
 }
@@ -538,5 +545,17 @@ body {
 
 .container .section-3 {
   background: #F9F7FF;
+}
+
+.container .section-3 .h1-title {
+  margin-top: 10rem;
+  width: 525px;
+  height: 48px;
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #1F3E72;
 }
 /*# sourceMappingURL=style.css.map */

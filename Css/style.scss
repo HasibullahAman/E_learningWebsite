@@ -211,5 +211,16 @@ body {
     }
     .section-3 {
         background: #F9F7FF;
+        .h1-title {
+            margin-top: 10rem;
+            width: 525px;
+            height: 48px;
+            font-family: 'Newsreader';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 48px;
+            color: #1F3E72;
+        }
     }
 }
