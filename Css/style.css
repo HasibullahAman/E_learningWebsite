@@ -535,4 +535,8 @@ body {
       -ms-flex-pack: space-evenly !important;
           justify-content: space-evenly !important;
 }
+
+.container .section-3 {
+  background: #F9F7FF;
+}
 /*# sourceMappingURL=style.css.map */
