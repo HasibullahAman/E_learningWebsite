@@ -680,5 +680,8 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: rgba(31, 62, 114, 0.75);
+  text-align: left;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem !important;
 }
 /*# sourceMappingURL=style.css.map */
