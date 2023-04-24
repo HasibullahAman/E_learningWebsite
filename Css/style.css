@@ -684,4 +684,15 @@ body {
   margin-bottom: 2rem;
   margin-top: 0.5rem !important;
 }
+
+.container .section-4 .row .col-6 .img-sec4-1 .camma {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 900;
+  color: #85D1A0;
+}
+
+.container .section-4 .row .col-6 .img-sec4-2 {
+  margin-top: 30%;
+}
 /*# sourceMappingURL=style.css.map */
