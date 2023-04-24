@@ -140,7 +140,7 @@ body {
                     .btn1 {
                         position: absolute;
                         top: 90%;
-                        left: 65%;
+                        left: 69%;
                         transform: translate(-50%, -50%);
                         -ms-transform: translate(-50%, -50%);
                         justify-content: center;
@@ -150,8 +150,19 @@ body {
                         width: 128px;
                         height: 48px;
                         background: #FFFFFF;
+                        border: none;
                         border-radius: 150px;
-                        align-content: space-around;
+                        flex-wrap: nowrap;
+                        .card-text {
+                            width: 96px;
+                            height: 32px;
+                            font-family: 'Kumbh Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 13px;
+                            line-height: 32px;
+                            color: #1F3E72;
+                        }
                     }
                     .btn2 {
                         position: absolute;
@@ -163,13 +174,24 @@ body {
                         flex-direction: row;
                         justify-content: center;
                         align-items: flex-start;
+                        border: none;
                         padding: 8px 16px;
                         gap: 6px;
                         width: 66px;
                         height: 48px;
                         background: #85D1A0 !important;
                         border-radius: 150px;
-                        align-content: space-around;
+                        flex-wrap: nowrap;
+                        .card-text {
+                            width: 80px;
+                            height: 32px;
+                            font-family: 'Kumbh Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 32px;
+                            color: #1F3E72;
+                        }
                     }
                 }
                 card-body {

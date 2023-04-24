@@ -453,7 +453,7 @@ body {
 .container .section-2 .card-post .card-post1 .card-img .btn1 {
   position: absolute;
   top: 90%;
-  left: 65%;
+  left: 69%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -468,9 +468,21 @@ body {
   width: 128px;
   height: 48px;
   background: #FFFFFF;
+  border: none;
   border-radius: 150px;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.container .section-2 .card-post .card-post1 .card-img .btn1 .card-text {
+  width: 96px;
+  height: 32px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  color: #1F3E72;
 }
 
 .container .section-2 .card-post .card-post1 .card-img .btn2 {
@@ -493,14 +505,26 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  border: none;
   padding: 8px 16px;
   gap: 6px;
   width: 66px;
   height: 48px;
   background: #85D1A0 !important;
   border-radius: 150px;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.container .section-2 .card-post .card-post1 .card-img .btn2 .card-text {
+  width: 80px;
+  height: 32px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #1F3E72;
 }
 
 .container .section-2 .card-post .card-post1 card-body .row .col-6 .card-button .second-card-button {
