@@ -696,14 +696,53 @@ body {
   margin-top: 30%;
 }
 
+.container .section-5 {
+  background: #F9F7FF;
+}
+
 .container .section-5 .row .col-12 .h1-title {
-  width: 479px;
-  height: 116px;
+  margin-top: 10rem;
   font-family: 'Newsreader';
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
   color: #1F3E72;
+  width: 525px;
+  height: 48px;
+}
+
+.container .section-5 .row .col-12 .row .col-6 .row .col-12 .text {
+  width: 536px;
+  height: 150px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(31, 62, 114, 0.75);
+  text-align: left;
+}
+
+.container .section-5 .row .col-12 .row .col-6 .row .col-12 .h1-title-small {
+  width: 162px;
+  height: 34px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  color: #1F3E72;
+}
+
+.container .section-5 .row .col-12 .row .col-6 .row .col-12 .poland {
+  width: 64px;
+  height: 30px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(31, 62, 114, 0.75);
 }
 /*# sourceMappingURL=style.css.map */
