@@ -211,6 +211,9 @@ body {
     }
     .section-3 {
         background: #F9F7FF;
+        .container {
+            background: #F9F7FF;
+        }
         .h1-title {
             margin-top: 10rem;
             width: 525px;
@@ -246,7 +249,45 @@ body {
                         text-align: center;
                         color: #1F3E72;
                     }
+                    .circle {
+                        position: relative;
+                        .numbers {
+                            position: absolute;
+                            margin: 0;
+                            width: 12px;
+                            height: 28px;
+                            left: 32px;
+                            top: 25px;
+                            font-family: 'Kumbh Sans';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 28px;
+                            line-height: 28px;
+                            color: #FFFFFF;
+                        }
+                    }
                 }
+            }
+        }
+        .btn {
+            padding: 16px 32px;
+            gap: 10px;
+            width: 211px;
+            height: 58px;
+            background: #6255A5;
+            border-radius: 5px;
+        }
+        .text-sec3 {
+            .text {
+                width: 496px;
+                height: 26px;
+                font-family: 'Kumbh Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 26px;
+                text-align: center;
+                color: #1F3E72;
             }
         }
     }

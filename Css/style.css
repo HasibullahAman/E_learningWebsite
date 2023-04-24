@@ -553,6 +553,10 @@ body {
   background: #F9F7FF;
 }
 
+.container .section-3 .container {
+  background: #F9F7FF;
+}
+
 .container .section-3 .h1-title {
   margin-top: 10rem;
   width: 525px;
@@ -600,6 +604,46 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #1F3E72;
+}
+
+.container .section-3 .step .row .circle-text .circle {
+  position: relative;
+}
+
+.container .section-3 .step .row .circle-text .circle .numbers {
+  position: absolute;
+  margin: 0;
+  width: 12px;
+  height: 28px;
+  left: 32px;
+  top: 25px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.container .section-3 .btn {
+  padding: 16px 32px;
+  gap: 10px;
+  width: 211px;
+  height: 58px;
+  background: #6255A5;
+  border-radius: 5px;
+}
+
+.container .section-3 .text-sec3 .text {
+  width: 496px;
+  height: 26px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
   line-height: 26px;
   text-align: center;
   color: #1F3E72;
