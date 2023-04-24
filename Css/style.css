@@ -451,10 +451,4 @@ body {
       -ms-flex-pack: space-evenly !important;
           justify-content: space-evenly !important;
 }
-
-.container .section-2 .card-post .card-post1 card-body .row .col-6 .card-button .classic_button_prev {
-  position: absolute;
-  right: 88px;
-  top: 5px;
-}
 /*# sourceMappingURL=style.css.map */
