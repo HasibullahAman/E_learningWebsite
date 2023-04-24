@@ -134,6 +134,24 @@ body {
         .card-post {
             .card-post1 {
                 border: none;
+                .card-img {
+                    position: relative;
+                    .btn {
+                        position: absolute;
+                        top: 90%;
+                        left: 90%;
+                        transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        justify-content: center;
+                        align-items: flex-start;
+                        padding: 8px 16px;
+                        gap: 6px;
+                        width: 128px;
+                        height: 48px;
+                        background: #FFFFFF;
+                        border-radius: 150px;
+                    }
+                }
                 card-body {
                     .row {
                         .col-6 {
