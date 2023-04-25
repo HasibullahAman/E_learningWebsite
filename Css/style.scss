@@ -507,7 +507,7 @@ body {
                     color: rgba(31, 62, 114, 0.8);
                 }
                 .row {
-                    .col-6 {
+                    .col-8 {
                         height: 88px;
                         .form-control {
                             width: 362px;
@@ -517,8 +517,9 @@ body {
                             border-radius: 10px;
                         }
                     }
-                    .col-6 {
+                    .col-2 {
                         height: 88px;
+                        width: auto;
                         button {
                             background: #6255A5;
                             padding: 0.8rem 0.75rem !important;
