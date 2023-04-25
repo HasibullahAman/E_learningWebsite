@@ -837,4 +837,10 @@ body {
   line-height: 26px;
   color: rgba(31, 62, 114, 0.75);
 }
+
+.container .section-7 {
+  background: #F9F7FF;
+  margin-top: 9rem;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
