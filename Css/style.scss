@@ -507,9 +507,7 @@ body {
                     color: rgba(31, 62, 114, 0.8);
                 }
                 .row {
-                    align-items: baseline;
-                    .col-auto {
-                        width: 382px;
+                    .col-6 {
                         height: 88px;
                         .form-control {
                             width: 362px;
@@ -520,8 +518,10 @@ body {
                         }
                     }
                     .col-6 {
+                        height: 88px;
                         button {
-                            color: #6255A5;
+                            background: #6255A5;
+                            padding: 0.8rem 0.75rem !important;
                             .a-color-sec2 {
                                 color: red;
                             }

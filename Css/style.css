@@ -873,26 +873,24 @@ body {
   color: rgba(31, 62, 114, 0.8);
 }
 
-.container .section-7 .row .col-12 .row {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.container .section-7 .row .col-12 .row .col-auto {
-  width: 382px;
+.container .section-7 .row .col-12 .row .col-6 {
   height: 88px;
 }
 
-.container .section-7 .row .col-12 .row .col-auto .form-control {
+.container .section-7 .row .col-12 .row .col-6 .form-control {
   width: 362px;
   padding: 0.8rem 0.75rem !important;
   border: 1px solid #6255A5;
   border-radius: 10px;
 }
 
+.container .section-7 .row .col-12 .row .col-6 {
+  height: 88px;
+}
+
 .container .section-7 .row .col-12 .row .col-6 button {
-  color: #6255A5;
+  background: #6255A5;
+  padding: 0.8rem 0.75rem !important;
 }
 
 .container .section-7 .row .col-12 .row .col-6 button .a-color-sec2 {
