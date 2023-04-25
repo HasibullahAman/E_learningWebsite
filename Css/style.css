@@ -746,6 +746,10 @@ body {
   color: rgba(31, 62, 114, 0.75);
 }
 
+.container .section-6 .row {
+  width: 90%;
+}
+
 .container .section-6 .row .col-12 .first-row {
   margin-top: 5rem;
   display: -webkit-box;
@@ -781,5 +785,56 @@ body {
   font-size: 18px;
   line-height: 28px;
   color: #FFFFFF;
+}
+
+.container .section-6 .row .col-12 .row {
+  width: 100%;
+}
+
+.container .section-6 .row .col-12 .row .col-4 .card {
+  border: none;
+}
+
+.container .section-6 .row .col-12 .row .col-4 .card .card-body {
+  padding: 0 !important;
+}
+
+.container .section-6 .row .col-12 .row .col-4 .card .card-body .date-sec-6 {
+  text-align: left;
+  width: 130px;
+  height: 24px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(31, 62, 114, 0.5);
+  padding: 2rem 0;
+}
+
+.container .section-6 .row .col-12 .row .col-4 .card .card-body .card-title {
+  text-align: left;
+  width: 389px;
+  height: 64px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  color: #1F3E72;
+}
+
+.container .section-6 .row .col-12 .row .col-4 .card .card-body .card-text {
+  padding: 1.1rem 0;
+  margin-top: 0;
+  text-align: left;
+  width: 301px;
+  height: 52px;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(31, 62, 114, 0.75);
 }
 /*# sourceMappingURL=style.css.map */
