@@ -680,7 +680,6 @@ body {
 }
 
 .container .section-4 .row .col-6 .h1-title-small {
-  width: 118px;
   height: 28px;
   font-family: 'Newsreader';
   font-style: normal;
@@ -763,6 +762,20 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: rgba(31, 62, 114, 0.75);
+}
+
+.container .section-5 .row .col-12 .row .col-6 .row .icon i {
+  color: gold;
+  padding: 0.2rem;
+  margin: 0;
+}
+
+.container .section-5 .row .col-12 .row .col-6 .row .dianne .h1-title-small {
+  margin: 0%;
+}
+
+.container .section-5 .row .col-12 .row .col-6 .row .poland {
+  margin: 0%;
 }
 
 .container .section-6 .row {
