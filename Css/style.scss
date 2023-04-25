@@ -404,6 +404,7 @@ body {
         .row {
             .col-12 {
                 .first-row {
+                    margin-top: 5rem;
                     display: flex;
                     justify-content: space-between;
                     align-items: baseline;
@@ -418,6 +419,8 @@ body {
                         height: 60px;
                         border-radius: 5px;
                         background: #6255A5;
+                        width: 152px;
+                        height: 58px;
                         .a-color-sec2 {
                             font-style: normal;
                             font-weight: 500;
