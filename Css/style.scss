@@ -532,4 +532,47 @@ body {
             }
         }
     }
+    footer {
+        .row {
+            width: 90%;
+            .col-4 {
+                .logo-box {
+                    display: flex;
+                    flex-direction: row;
+                    .logo {
+                        position: absolute;
+                        width: 2.625rem;
+                        height: 2.625rem;
+                        margin-top: 1rem;
+                    }
+                    p {
+                        width: 4.3rem;
+                        height: 3rem;
+                        padding-left: 3.2rem;
+                        padding-top: 1.3rem;
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 2.4rem;
+                        line-height: 2.3rem;
+                        color: #6255a5;
+                        flex: none;
+                        order: 1;
+                        flex-grow: 0;
+                    }
+                }
+                p {
+                    width: 245px;
+                    height: 32px;
+                    text-align: left;
+                    font-family: 'Kumbh Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 32px;
+                    color: #1F3E72;
+                }
+            }
+        }
+    }
 }

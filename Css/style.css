@@ -897,4 +897,58 @@ body {
 .container .section-7 .row .col-12 .row .col-2 button .a-color-sec2 {
   color: red;
 }
+
+.container footer .row {
+  width: 90%;
+}
+
+.container footer .row .col-4 .logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container footer .row .col-4 .logo-box .logo {
+  position: absolute;
+  width: 2.625rem;
+  height: 2.625rem;
+  margin-top: 1rem;
+}
+
+.container footer .row .col-4 .logo-box p {
+  width: 4.3rem;
+  height: 3rem;
+  padding-left: 3.2rem;
+  padding-top: 1.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.3rem;
+  color: #6255a5;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.container footer .row .col-4 p {
+  width: 245px;
+  height: 32px;
+  text-align: left;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  color: #1F3E72;
+}
 /*# sourceMappingURL=style.css.map */
