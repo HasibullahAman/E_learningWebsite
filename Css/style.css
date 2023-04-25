@@ -897,17 +897,4 @@ body {
 .container .section-7 .row .col-12 .row .col-2 button .a-color-sec2 {
   color: red;
 }
-
-.container footer .container .col-md-7 .row .col-md-4 .hr-line {
-  border-bottom: #000 solid .15rem;
-}
-
-.container footer .container .col-md-7 .row .col-md-4 .list-unstyled li a {
-  text-decoration: none;
-  color: #000;
-}
-
-.container footer .container .col-md-7 .row .col-md-4 .list-unstyled li a:hover {
-  color: #000;
-}
 /*# sourceMappingURL=style.css.map */
