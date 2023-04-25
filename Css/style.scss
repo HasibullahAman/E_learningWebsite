@@ -1,411 +1,124 @@
-@import "_start";
-@import "_button";
-@import "_font";
-@import "_component";
-body {
-    background: #F5F5F5;
-}
-
-.container {
-    background: #ffffff;
-    nav {
-        div {
-            .row {
-                header {
-                    display: flex;
-                    flex-direction: row;
-                    .logo-box {
-                        color: #ffffff;
-                        height: 4rem;
-                        .logo {
-                            position: absolute;
-                            width: 2.625rem;
-                            height: 2.625rem;
-                            margin-top: 1rem;
-                            // padding-top: 1rem;
-                        }
-                        p {
-                            width: 4.3rem;
-                            height: 3rem;
-                            padding-left: 3.2rem;
-                            padding-top: 1.3rem;
-                            font-family: "Inter";
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 2.4rem;
-                            line-height: 2.3rem;
-                            color: #6255a5;
-                            flex: none;
-                            order: 1;
-                            flex-grow: 0;
-                        }
-                    }
-                    .nav-item {
-                        ul {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-evenly;
-                            padding-top: 1.8rem;
-                        }
-                    }
-                    .nav-button {
-                        ul {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-evenly;
-                            .color_full_button {
-                                padding-left: 0;
-                            }
-                        }
-                    }
-                }
-            }
+        @import "_start";
+        @import "_button";
+        @import "_font";
+        @import "_component";
+        body {
+            background: #F5F5F5;
         }
-    }
-    .section-1 {
-        background-color: #F9F7FF;
-        top: 81px;
-        .row {
-            .sec-title {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 6rem;
-            }
-            .sec-text {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .sec-button {
-                padding-top: 2.5rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                .button-sec1 {
-                    background: #6255A5;
-                    .button-sec1-text {
-                        color: #FFFFFF;
-                    }
-                }
-            }
-            .sec-photo {
-                padding-top: 2.5rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                img {
-                    max-width: 70%;
-                    max-height: 90%;
-                }
-            }
-        }
-    }
-    .section-2 {
-        margin-top: 5.5rem;
-        .first-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            .h1-title-sec-2 {
-                font-family: 'Newsreader', serif;
-                font-weight: 600;
-                font-size: 48px;
-                line-height: 48px;
-            }
-            .button-sec2 {
-                width: 237px;
-                height: 60px;
-                border-radius: 5px;
-                background: #6255A5;
-                .a-color-sec2 {
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 18px;
-                    line-height: 28px;
-                    color: #FFFFFF;
-                }
-            }
-        }
-        .second-row {
-            display: flex;
-            justify-content: space-between;
-        }
-        .card-post {
-            .card-post1 {
-                border: none;
-                .card-img {
-                    position: relative;
-                    display: flex;
-                    .btn1 {
-                        position: absolute;
-                        top: 90%;
-                        left: 69%;
-                        transform: translate(-50%, -50%);
-                        -ms-transform: translate(-50%, -50%);
-                        justify-content: center;
-                        align-items: flex-start;
-                        padding: 8px 16px;
-                        gap: 6px;
-                        width: 128px;
-                        height: 48px;
-                        background: #FFFFFF;
-                        border: none;
-                        border-radius: 150px;
-                        flex-wrap: nowrap;
-                        .card-text {
-                            width: 96px;
-                            height: 32px;
-                            font-family: 'Kumbh Sans', sans-serif;
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 13px;
-                            line-height: 32px;
-                            color: #1F3E72;
-                        }
-                    }
-                    .btn2 {
-                        position: absolute;
-                        top: 90%;
-                        left: 90%;
-                        transform: translate(-50%, -50%);
-                        -ms-transform: translate(-50%, -50%);
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        align-items: flex-start;
-                        border: none;
-                        padding: 8px 16px;
-                        gap: 6px;
-                        width: 66px;
-                        height: 48px;
-                        background: #85D1A0 !important;
-                        border-radius: 150px;
-                        flex-wrap: nowrap;
-                        .card-text {
-                            width: 80px;
-                            height: 32px;
-                            font-family: 'Kumbh Sans', sans-serif;
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 14px;
-                            line-height: 32px;
-                            color: #1F3E72;
-                        }
-                    }
-                }
-                card-body {
-                    .row {
-                        .col-6 {
-                            .card-button {
-                                .second-card-button {
-                                    align-items: center;
-                                    justify-content: space-evenly !important;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .section-3 {
-        background: #F9F7FF;
+        
         .container {
-            background: #F9F7FF;
-        }
-        .h1-title {
-            margin-top: 10rem;
-            width: 525px;
-            height: 48px;
-            font-family: 'Newsreader';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 48px;
-            line-height: 48px;
-            color: #1F3E72;
-        }
-        .step {
-            .row {
-                flex-wrap: wrap;
-                justify-content: space-evenly;
-                align-items: center;
-                .circle-text {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    padding: 0px;
-                    gap: 24px;
-                    width: 238px;
-                    height: 154px;
-                    .text {
-                        width: 238px;
-                        height: 52px;
-                        font-family: 'Kumbh Sans';
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 18px;
-                        line-height: 26px;
-                        text-align: center;
-                        color: #1F3E72;
-                    }
-                    .circle {
-                        position: relative;
-                        .numbers {
-                            position: absolute;
-                            margin: 0;
-                            width: 12px;
-                            height: 28px;
-                            left: 32px;
-                            top: 25px;
-                            font-family: 'Kumbh Sans';
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 28px;
-                            line-height: 28px;
-                            color: #FFFFFF;
-                        }
-                    }
-                }
-            }
-        }
-        .btn {
-            padding: 16px 32px;
-            gap: 10px;
-            width: 211px;
-            height: 58px;
-            background: #6255A5;
-            border-radius: 5px;
-        }
-        .text-sec3 {
-            .text {
-                width: 496px;
-                height: 26px;
-                font-family: 'Kumbh Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 28px;
-                line-height: 26px;
-                text-align: center;
-                color: #1F3E72;
-            }
-        }
-    }
-    .section-4 {
-        .row {
-            .col-6 {
-                .h1-title {
-                    width: 479px;
-                    height: 116px;
-                    font-family: 'Newsreader';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 48px;
-                    line-height: 58px;
-                    color: #1F3E72;
-                }
-                .h1-title-small {
-                    width: 118px;
-                    height: 28px;
-                    font-family: 'Newsreader';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 24px;
-                    line-height: 28px;
-                    color: #1F3E72;
-                }
-                .text {
-                    width: 459px;
-                    height: 84px;
-                    font-family: 'Kumbh Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 28px;
-                    color: rgba(31, 62, 114, 0.75);
-                    text-align: left;
-                    margin-bottom: 2rem;
-                    margin-top: 0.5rem !important;
-                }
-                .img-sec4-1 {
-                    // margin-top: 10%;
-                    .camma {
-                        font-size: 100px;
-                        text-align: center;
-                        font-weight: 900;
-                        // font-style: italic;
-                        color: #85D1A0;
-                    }
-                }
-                .img-sec4-2 {
-                    margin-top: 30%;
-                }
-            }
-        }
-    }
-    .section-5 {
-        background: #F9F7FF;
-        .row {
-            .col-12 {
-                .h1-title {
-                    margin-top: 10rem;
-                    font-family: 'Newsreader';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 48px;
-                    line-height: 58px;
-                    color: #1F3E72;
-                    width: 525px;
-                    height: 48px;
-                }
-                .row {
-                    .col-6 {
-                        .row {
-                            .col-12 {
-                                .text {
-                                    width: 536px;
-                                    height: 150px;
-                                    font-family: 'Kumbh Sans';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 20px;
-                                    line-height: 30px;
-                                    color: rgba(31, 62, 114, 0.75);
-                                    text-align: left;
+            background: #ffffff;
+            nav {
+                div {
+                    .row {
+                        header {
+                            display: flex;
+                            flex-direction: row;
+                            .logo-box {
+                                color: #ffffff;
+                                height: 4rem;
+                                .logo {
+                                    position: absolute;
+                                    width: 2.625rem;
+                                    height: 2.625rem;
+                                    margin-top: 1rem;
+                                    // padding-top: 1rem;
                                 }
-                                .h1-title-small {
-                                    width: 162px;
-                                    height: 34px;
-                                    font-family: 'Kumbh Sans';
+                                p {
+                                    width: 4.3rem;
+                                    height: 3rem;
+                                    padding-left: 3.2rem;
+                                    padding-top: 1.3rem;
+                                    font-family: "Inter";
                                     font-style: normal;
                                     font-weight: 500;
-                                    font-size: 24px;
-                                    line-height: 34px;
-                                    color: #1F3E72;
+                                    font-size: 2.4rem;
+                                    line-height: 2.3rem;
+                                    color: #6255a5;
+                                    flex: none;
+                                    order: 1;
+                                    flex-grow: 0;
                                 }
-                                .poland {
-                                    width: 64px;
-                                    height: 30px;
-                                    font-family: 'Kumbh Sans';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 20px;
-                                    line-height: 30px;
-                                    color: rgba(31, 62, 114, 0.75);
+                            }
+                            .nav-item {
+                                ul {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-evenly;
+                                    padding-top: 1.8rem;
+                                }
+                            }
+                            .nav-button {
+                                ul {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-evenly;
+                                    .color_full_button {
+                                        padding-left: 0;
+                                    }
                                 }
                             }
                         }
                     }
                 }
             }
-        }
-    }
-    .section-6 {
-        .row {
-            width: 90%;
-            .col-12 {
+            .section-1 {
+                background-color: #F9F7FF;
+                top: 81px;
+                .row {
+                    .sec-title {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 6rem;
+                    }
+                    .sec-text {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .sec-button {
+                        padding-top: 2.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .button-sec1 {
+                            background: #6255A5;
+                            .button-sec1-text {
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                    .sec-photo {
+                        padding-top: 2.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            max-width: 70%;
+                            max-height: 90%;
+                        }
+                    }
+                }
+                .corner-photo-container {
+                    position: relative;
+                    width: 200px;
+                    height: 200px;
+                    overflow: hidden;
+                }
+                .corner-photo {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 200%;
+                    height: 200%;
+                    object-fit: none;
+                    object-position: 0 0;
+                }
+            }
+            .section-2 {
+                margin-top: 5.5rem;
                 .first-row {
-                    margin-top: 5rem;
                     display: flex;
                     justify-content: space-between;
                     align-items: baseline;
@@ -420,8 +133,6 @@ body {
                         height: 60px;
                         border-radius: 5px;
                         background: #6255A5;
-                        width: 152px;
-                        height: 58px;
                         .a-color-sec2 {
                             font-style: normal;
                             font-weight: 500;
@@ -431,208 +142,527 @@ body {
                         }
                     }
                 }
-                .row {
-                    width: 100%;
-                    .col-4 {
-                        .card {
-                            border: none;
-                            .card-body {
-                                padding: 0 !important;
-                                .date-sec-6 {
-                                    text-align: left;
-                                    width: 130px;
-                                    height: 24px;
-                                    font-family: 'Kumbh Sans';
+                .second-row {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .card-post {
+                    .card-post1 {
+                        border: none;
+                        .card-img {
+                            position: relative;
+                            display: flex;
+                            .btn1 {
+                                position: absolute;
+                                top: 90%;
+                                left: 69%;
+                                transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                justify-content: center;
+                                align-items: flex-start;
+                                padding: 8px 16px;
+                                gap: 6px;
+                                width: 128px;
+                                height: 48px;
+                                background: #FFFFFF;
+                                border: none;
+                                border-radius: 150px;
+                                flex-wrap: nowrap;
+                                .card-text {
+                                    width: 96px;
+                                    height: 32px;
+                                    font-family: 'Kumbh Sans', sans-serif;
                                     font-style: normal;
                                     font-weight: 400;
-                                    font-size: 16px;
-                                    line-height: 24px;
-                                    color: rgba(31, 62, 114, 0.5);
-                                    padding: 2rem 0;
+                                    font-size: 13px;
+                                    line-height: 32px;
+                                    color: #1F3E72;
                                 }
-                                .card-title {
-                                    text-align: left;
-                                    width: 389px;
-                                    height: 64px;
+                            }
+                            .btn2 {
+                                position: absolute;
+                                top: 90%;
+                                left: 90%;
+                                transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                align-items: flex-start;
+                                border: none;
+                                padding: 8px 16px;
+                                gap: 6px;
+                                width: 66px;
+                                height: 48px;
+                                background: #85D1A0 !important;
+                                border-radius: 150px;
+                                flex-wrap: nowrap;
+                                .card-text {
+                                    width: 80px;
+                                    height: 32px;
+                                    font-family: 'Kumbh Sans', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 32px;
+                                    color: #1F3E72;
+                                }
+                            }
+                        }
+                        card-body {
+                            .row {
+                                .col-6 {
+                                    .card-button {
+                                        .second-card-button {
+                                            align-items: center;
+                                            justify-content: space-evenly !important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .section-3 {
+                background: #F9F7FF;
+                .container {
+                    background: #F9F7FF;
+                }
+                .h1-title {
+                    margin-top: 10rem;
+                    width: 525px;
+                    height: 48px;
+                    font-family: 'Newsreader';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 48px;
+                    color: #1F3E72;
+                }
+                .step {
+                    .row {
+                        flex-wrap: wrap;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        .circle-text {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 0px;
+                            gap: 24px;
+                            width: 238px;
+                            height: 154px;
+                            .text {
+                                width: 238px;
+                                height: 52px;
+                                font-family: 'Kumbh Sans';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 26px;
+                                text-align: center;
+                                color: #1F3E72;
+                            }
+                            .circle {
+                                position: relative;
+                                .numbers {
+                                    position: absolute;
+                                    margin: 0;
+                                    width: 12px;
+                                    height: 28px;
+                                    left: 32px;
+                                    top: 25px;
                                     font-family: 'Kumbh Sans';
                                     font-style: normal;
                                     font-weight: 600;
                                     font-size: 28px;
-                                    line-height: 32px;
-                                    color: #1F3E72;
+                                    line-height: 28px;
+                                    color: #FFFFFF;
                                 }
-                                .card-text {
-                                    padding: 1.1rem 0;
-                                    margin-top: 0;
-                                    text-align: left;
-                                    width: 301px;
-                                    height: 52px;
-                                    font-family: 'Kumbh Sans';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 18px;
-                                    line-height: 26px;
-                                    color: rgba(31, 62, 114, 0.75);
+                            }
+                        }
+                    }
+                }
+                .btn {
+                    padding: 16px 32px;
+                    gap: 10px;
+                    width: 211px;
+                    height: 58px;
+                    background: #6255A5;
+                    border-radius: 5px;
+                }
+                .text-sec3 {
+                    .text {
+                        width: 496px;
+                        height: 26px;
+                        font-family: 'Kumbh Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 28px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #1F3E72;
+                    }
+                }
+            }
+            .section-4 {
+                .row {
+                    .col-6 {
+                        .h1-title {
+                            width: 479px;
+                            height: 116px;
+                            font-family: 'Newsreader';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 48px;
+                            line-height: 58px;
+                            color: #1F3E72;
+                        }
+                        .h1-title-small {
+                            width: 118px;
+                            height: 28px;
+                            font-family: 'Newsreader';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 28px;
+                            color: #1F3E72;
+                        }
+                        .text {
+                            width: 459px;
+                            height: 84px;
+                            font-family: 'Kumbh Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 28px;
+                            color: rgba(31, 62, 114, 0.75);
+                            text-align: left;
+                            margin-bottom: 2rem;
+                            margin-top: 0.5rem !important;
+                        }
+                        .img-sec4-1 {
+                            // margin-top: 10%;
+                            .camma {
+                                font-size: 100px;
+                                text-align: center;
+                                font-weight: 900;
+                                // font-style: italic;
+                                color: #85D1A0;
+                            }
+                        }
+                        .img-sec4-2 {
+                            margin-top: 30%;
+                        }
+                    }
+                }
+            }
+            .section-5 {
+                background: #F9F7FF;
+                .row {
+                    .col-12 {
+                        .h1-title {
+                            margin-top: 10rem;
+                            font-family: 'Newsreader';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 48px;
+                            line-height: 58px;
+                            color: #1F3E72;
+                            width: 525px;
+                            height: 48px;
+                        }
+                        .row {
+                            .col-6 {
+                                .row {
+                                    .col-12 {
+                                        .text {
+                                            width: 536px;
+                                            height: 150px;
+                                            font-family: 'Kumbh Sans';
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 20px;
+                                            line-height: 30px;
+                                            color: rgba(31, 62, 114, 0.75);
+                                            text-align: left;
+                                        }
+                                        .h1-title-small {
+                                            width: 162px;
+                                            height: 34px;
+                                            font-family: 'Kumbh Sans';
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 24px;
+                                            line-height: 34px;
+                                            color: #1F3E72;
+                                        }
+                                        .poland {
+                                            width: 64px;
+                                            height: 30px;
+                                            font-family: 'Kumbh Sans';
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 20px;
+                                            line-height: 30px;
+                                            color: rgba(31, 62, 114, 0.75);
+                                        }
+                                    }
                                 }
                             }
                         }
                     }
                 }
             }
-        }
-    }
-    .section-7 {
-        background: #F9F7FF;
-        margin-top: 4rem;
-        .row {
-            margin-top: 5rem;
-            .col-12 {
-                justify-content: center !important;
-                .h1-title {
-                    height: 2rem;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 48px;
-                    line-height: 48px;
-                    color: #1F3E72;
-                    text-align: center !important;
-                }
-                .text {
-                    height: 0;
-                    font-family: 'Kumbh Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 22px;
-                    line-height: 30px;
-                    color: rgba(31, 62, 114, 0.8);
-                }
+            .section-6 {
                 .row {
-                    .col-8 {
-                        height: 88px;
-                        .form-control {
-                            width: 362px;
-                            // height: 7rem;
-                            padding: 0.8rem 0.75rem !important;
-                            border: 1px solid #6255A5;
-                            border-radius: 10px;
+                    width: 90%;
+                    .col-12 {
+                        .first-row {
+                            margin-top: 5rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: baseline;
+                            .h1-title-sec-2 {
+                                font-family: 'Newsreader', serif;
+                                font-weight: 600;
+                                font-size: 48px;
+                                line-height: 48px;
+                            }
+                            .button-sec2 {
+                                width: 237px;
+                                height: 60px;
+                                border-radius: 5px;
+                                background: #6255A5;
+                                width: 152px;
+                                height: 58px;
+                                .a-color-sec2 {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                        .row {
+                            width: 100%;
+                            .col-4 {
+                                .card {
+                                    border: none;
+                                    .card-body {
+                                        padding: 0 !important;
+                                        .date-sec-6 {
+                                            text-align: left;
+                                            width: 130px;
+                                            height: 24px;
+                                            font-family: 'Kumbh Sans';
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                            line-height: 24px;
+                                            color: rgba(31, 62, 114, 0.5);
+                                            padding: 2rem 0;
+                                        }
+                                        .card-title {
+                                            text-align: left;
+                                            width: 389px;
+                                            height: 64px;
+                                            font-family: 'Kumbh Sans';
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 28px;
+                                            line-height: 32px;
+                                            color: #1F3E72;
+                                        }
+                                        .card-text {
+                                            padding: 1.1rem 0;
+                                            margin-top: 0;
+                                            text-align: left;
+                                            width: 301px;
+                                            height: 52px;
+                                            font-family: 'Kumbh Sans';
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 18px;
+                                            line-height: 26px;
+                                            color: rgba(31, 62, 114, 0.75);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .section-7 {
+                background: #F9F7FF;
+                margin-top: 4rem;
+                .row {
+                    margin-top: 5rem;
+                    .col-12 {
+                        justify-content: center !important;
+                        .h1-title {
+                            height: 2rem;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 48px;
+                            line-height: 48px;
+                            color: #1F3E72;
+                            text-align: center !important;
+                        }
+                        .text {
+                            height: 0;
+                            font-family: 'Kumbh Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 30px;
+                            color: rgba(31, 62, 114, 0.8);
+                        }
+                        .row {
+                            .col-8 {
+                                height: 88px;
+                                .form-control {
+                                    width: 362px;
+                                    // height: 7rem;
+                                    padding: 0.8rem 0.75rem !important;
+                                    border: 1px solid #6255A5;
+                                    border-radius: 10px;
+                                }
+                            }
+                            .col-2 {
+                                height: 88px;
+                                width: auto;
+                                button {
+                                    background: #6255A5;
+                                    padding: 0.8rem 0.75rem !important;
+                                    .a-color-sec2 {
+                                        color: red;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .corner-photo-container {
+                    position: relative;
+                    width: 300px;
+                    height: 350px;
+                    overflow: hidden;
+                }
+                .corner-photo {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 200%;
+                    height: 200%;
+                    object-fit: none;
+                    object-position: 70% 40%;
+                }
+            }
+            footer {
+                .row {
+                    width: 90%;
+                    .col-4 {
+                        .logo-box {
+                            display: flex;
+                            flex-direction: row;
+                            .logo {
+                                position: absolute;
+                                width: 2.625rem;
+                                height: 2.625rem;
+                                margin-top: 1rem;
+                            }
+                            p {
+                                width: 4.3rem;
+                                height: 3rem;
+                                padding-left: 3.2rem;
+                                padding-top: 1.3rem;
+                                font-family: "Inter";
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 2rem;
+                                line-height: 2.3rem;
+                                color: #6255a5;
+                                flex: none;
+                                order: 1;
+                                flex-grow: 0;
+                            }
+                        }
+                        p {
+                            width: 245px;
+                            height: 1rem;
+                            text-align: left;
+                            font-family: 'Kumbh Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 13px;
+                            line-height: 1rem;
+                            color: #1F3E72;
+                        }
+                        .second-h1-footer {
+                            width: 245px;
+                            height: 26px;
+                            font-family: 'DM Sans';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 26px;
+                            color: #1F3E72;
+                        }
+                        .row {
+                            .col-me {
+                                height: 88px;
+                                margin-right: 0.5rem;
+                                .form-control {
+                                    width: 200px;
+                                    // height: 7rem;
+                                    padding: 0.8rem 0.75rem !important;
+                                    border: 1px solid #6255A5;
+                                    border-radius: 10px;
+                                }
+                            }
+                            .col-btn {
+                                height: 88px;
+                                width: 100px;
+                                button {
+                                    background: #6255A5;
+                                    padding: 0.8rem 0.75rem !important;
+                                    .a-color-sec2 {
+                                        color: red;
+                                    }
+                                }
+                            }
                         }
                     }
                     .col-2 {
-                        height: 88px;
-                        width: auto;
-                        button {
-                            background: #6255A5;
-                            padding: 0.8rem 0.75rem !important;
-                            .a-color-sec2 {
-                                color: red;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    footer {
-        .row {
-            width: 90%;
-            .col-4 {
-                .logo-box {
-                    display: flex;
-                    flex-direction: row;
-                    .logo {
-                        position: absolute;
-                        width: 2.625rem;
-                        height: 2.625rem;
-                        margin-top: 1rem;
-                    }
-                    p {
-                        width: 4.3rem;
-                        height: 3rem;
-                        padding-left: 3.2rem;
-                        padding-top: 1.3rem;
-                        font-family: "Inter";
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 2rem;
-                        line-height: 2.3rem;
-                        color: #6255a5;
-                        flex: none;
-                        order: 1;
-                        flex-grow: 0;
-                    }
-                }
-                p {
-                    width: 245px;
-                    height: 1rem;
-                    text-align: left;
-                    font-family: 'Kumbh Sans', sans-serif;
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 13px;
-                    line-height: 1rem;
-                    color: #1F3E72;
-                }
-                .second-h1-footer {
-                    width: 245px;
-                    height: 26px;
-                    font-family: 'DM Sans';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 26px;
-                    color: #1F3E72;
-                }
-                .row {
-                    .col-me {
-                        height: 88px;
-                        margin-right: 0.5rem;
-                        .form-control {
-                            width: 200px;
-                            // height: 7rem;
-                            padding: 0.8rem 0.75rem !important;
-                            border: 1px solid #6255A5;
-                            border-radius: 10px;
-                        }
-                    }
-                    .col-btn {
-                        height: 88px;
-                        width: 100px;
-                        button {
-                            background: #6255A5;
-                            padding: 0.8rem 0.75rem !important;
-                            .a-color-sec2 {
-                                color: red;
-                            }
-                        }
-                    }
-                }
-            }
-            .col-2 {
-                .h1-title {
-                    width: 112px;
-                    height: 26px;
-                    font-family: 'DM Sans';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 26px;
-                    color: #1F3E72;
-                }
-                ul {
-                    li {
-                        a {
-                            width: 77px;
-                            height: 15px;
+                        .h1-title {
+                            width: 112px;
+                            height: 26px;
                             font-family: 'DM Sans';
                             font-style: normal;
-                            font-weight: 400;
-                            font-size: 15px;
-                            line-height: 15px;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 26px;
                             color: #1F3E72;
+                        }
+                        ul {
+                            li {
+                                a {
+                                    width: 77px;
+                                    height: 15px;
+                                    font-family: 'DM Sans';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 15px;
+                                    color: #1F3E72;
+                                }
+                            }
                         }
                     }
                 }
             }
         }
-    }
-}
