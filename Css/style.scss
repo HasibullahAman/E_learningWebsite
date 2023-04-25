@@ -483,6 +483,36 @@ body {
     }
     .section-7 {
         background: #F9F7FF;
-        margin-top: 9rem;
+        margin-top: 4rem;
+        .row {
+            margin-top: 5rem;
+            .col-12 {
+                justify-content: center !important;
+                .h1-title {
+                    width: 371px;
+                    height: 48px;
+                    font-family: 'Newsreader';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 48px;
+                    color: #1F3E72;
+                    text-align: center !important;
+                }
+                .text {
+                    width: 392px;
+                    height: 30px;
+                    font-family: 'Kumbh Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 30px;
+                    color: rgba(31, 62, 114, 0.8);
+                }
+                .row {
+                    form {}
+                }
+            }
+        }
     }
 }
