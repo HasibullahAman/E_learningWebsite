@@ -489,9 +489,7 @@ body {
             .col-12 {
                 justify-content: center !important;
                 .h1-title {
-                    width: 371px;
-                    height: 48px;
-                    font-family: 'Newsreader';
+                    height: 2rem;
                     font-style: normal;
                     font-weight: 600;
                     font-size: 48px;
@@ -500,8 +498,7 @@ body {
                     text-align: center !important;
                 }
                 .text {
-                    width: 392px;
-                    height: 30px;
+                    height: 0;
                     font-family: 'Kumbh Sans';
                     font-style: normal;
                     font-weight: 400;
@@ -510,7 +507,17 @@ body {
                     color: rgba(31, 62, 114, 0.8);
                 }
                 .row {
-                    form {}
+                    align-items: baseline;
+                    .col-auto {
+                        width: 382px;
+                        height: 88px;
+                        .eamil {
+                            width: 362px;
+                            height: 7rem;
+                            border: 1px solid rgba(98, 85, 165, 0.3);
+                            border-radius: 10px;
+                        }
+                    }
                 }
             }
         }

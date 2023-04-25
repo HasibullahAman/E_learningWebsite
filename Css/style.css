@@ -854,9 +854,7 @@ body {
 }
 
 .container .section-7 .row .col-12 .h1-title {
-  width: 371px;
-  height: 48px;
-  font-family: 'Newsreader';
+  height: 2rem;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -866,13 +864,30 @@ body {
 }
 
 .container .section-7 .row .col-12 .text {
-  width: 392px;
-  height: 30px;
+  height: 0;
   font-family: 'Kumbh Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 30px;
   color: rgba(31, 62, 114, 0.8);
+}
+
+.container .section-7 .row .col-12 .row {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.container .section-7 .row .col-12 .row .col-auto {
+  width: 382px;
+  height: 88px;
+}
+
+.container .section-7 .row .col-12 .row .col-auto .eamil {
+  width: 362px;
+  height: 7rem;
+  border: 1px solid rgba(98, 85, 165, 0.3);
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
