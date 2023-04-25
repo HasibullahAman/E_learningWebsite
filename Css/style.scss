@@ -632,6 +632,7 @@
                                 margin-right: 0.5rem;
                                 .form-control {
                                     width: 200px;
+                                    margin-right: 15rem;
                                     // height: 7rem;
                                     padding: 0.8rem 0.75rem !important;
                                     border: 1px solid #6255A5;
@@ -640,10 +641,11 @@
                             }
                             .col-btn {
                                 height: 88px;
-                                width: 100px;
+                                width: 150px;
                                 button {
                                     background: #6255A5;
-                                    padding: 0.8rem 0.75rem !important;
+                                    margin-left: 2rem;
+                                    // padding: 0.8rem 0.75rem !important;
                                     .a-color-sec2 {
                                         color: red;
                                     }
