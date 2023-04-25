@@ -532,28 +532,4 @@ body {
             }
         }
     }
-    footer {
-        .container {
-            .col-md-7 {
-                .row {
-                    .col-md-4 {
-                        .hr-line {
-                            border-bottom: #000 solid .15rem;
-                        }
-                        .list-unstyled {
-                            li {
-                                a {
-                                    text-decoration: none;
-                                    color: #000;
-                                    &:hover {
-                                        color: #000;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
 }
